@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    src: url('/src/assets/fonts/NeueHaasDisplayBold.ttf') format('woff2');
+}
+
+.texto_crear{
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    color: black;
+    font-size: xx-large;
+    padding: 40px;
+}
+
+.container-input{
+    display: grid;
+    place-items: center;
+}
+#input-archivos{
+    padding: 200px;
+    border-radius: 20px;
+}
+#boton-archivos{
+    font-family:'Neue Haas Grotesk Display Pro', sans-serif;
+    background-color: red;
+    padding: 5px 50px;
+    border-radius: 10px;
+}
+
+.imagen-guardada{
+    width: 200px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

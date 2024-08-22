@@ -1,0 +1,35 @@
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    src: url('/src/assets/fonts/NeueHaasDisplayBold.ttf') format('woff2');
+}
+
+.texto-pines{
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    color: black;
+    padding: 40px;
+    font-size: xx-large;
+}
+
+.foto-perfil{
+    display: grid;
+    place-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+
+.pin-container{
+    columns: 8 215px;
+    margin: 0 32px;
+}
+
+.pin-guardado{
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    src: url('/src/assets/fonts/NeueHaasDisplayBold.ttf') format('woff2');
+}
+
+.texto-guardados{
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    color: black;
+    padding: 40px;
+    font-size: xx-large;
+}
+
+.guardados-container{
+    columns: 8 215px;
+    margin: 0 32px;
+}
+
+.pines-guardados{
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

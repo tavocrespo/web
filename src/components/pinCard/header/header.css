@@ -1,0 +1,46 @@
+.header_container{
+    display: inline-flex;
+    justify-content: space-between;
+    height: 88px;
+    padding: 0, 22px;
+    align-items: start;
+}
+
+.logo_header{
+    width: 150px;
+    cursor: pointer;
+}
+
+.header_items{
+    display: flex;
+    gap: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 0, 0, 8px gray;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header_item {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 15px;
+    margin-top: 10px;
+    text-align: right;
+    cursor: pointer;
+    color: black;
+}
+#header_barra{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.input_header{
+    padding: 10px;
+    width: 800px;
+    border-radius: 50px;
+    color: black;
+}
